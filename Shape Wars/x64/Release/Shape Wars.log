@@ -1,0 +1,33 @@
+﻿  Game.cpp
+C:\Users\Agent\OneDrive\Documents\0\Game dev\SFML C++\Shape Wars\Shape Wars\Game.cpp(10,52): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+C:\Users\Agent\OneDrive\Documents\0\Game dev\SFML C++\Shape Wars\Shape Wars\Game.cpp(12,46): warning C4244: 'return': conversion from 'double' to 'int', possible loss of data
+C:\Users\Agent\OneDrive\Documents\0\Game dev\SFML C++\Shape Wars\Shape Wars\Game.cpp(399,10): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+C:\Users\Agent\OneDrive\Documents\0\Game dev\SFML C++\Shape Wars\Shape Wars\Game.cpp(400,10): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+C:\Users\Agent\OneDrive\Documents\0\Game dev\SFML C++\Shape Wars\Shape Wars\Game.cpp(444,18): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\Agent\OneDrive\Documents\0\Game dev\SFML C++\Shape Wars\Shape Wars\Game.cpp(497,10): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+C:\Users\Agent\OneDrive\Documents\0\Game dev\SFML C++\Shape Wars\Shape Wars\Game.cpp(511,18): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\xutility(255,82): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  (compiling source file 'Game.cpp')
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\xutility(255,82):
+  the template instantiation context (the oldest one first) is
+  	C:\Users\Agent\OneDrive\Documents\0\Game dev\SFML C++\Shape Wars\Shape Wars\Game.cpp(96,24):
+  	see reference to function template instantiation 'std::shared_ptr<CShape> std::make_shared<CShape,int&,int&,sf::Color,sf::Color,int&>(int &,int &,sf::Color &&,sf::Color &&,int &)' being compiled
+  	C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\memory(2738,46):
+  	see reference to function template instantiation 'std::_Ref_count_obj2<CShape>::_Ref_count_obj2<int&,int&,_Ty,_Ty,int&>(int &,int &,_Ty &&,_Ty &&,int &)' being compiled
+          with
+          [
+              _Ty=sf::Color
+          ]
+  	C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\memory(2062,18):
+  	see reference to function template instantiation 'void std::_Construct_in_place<_Ty,int&,int&,sf::Color,sf::Color,int&>(_Ty &,int &,int &,sf::Color &&,sf::Color &&,int &) noexcept(false)' being compiled
+          with
+          [
+              _Ty=CShape
+          ]
+  
+  Generating code
+  2 of 588 functions ( 0.3%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    4 functions had inline decision re-evaluated but remain unchanged
+  Finished generating code
+  Shape Wars.vcxproj -> C:\Users\Agent\OneDrive\Documents\0\Game dev\SFML C++\Shape Wars\x64\Release\Shape Wars.exe
