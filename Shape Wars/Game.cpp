@@ -252,7 +252,7 @@ void Game::sUserInput()
 				// call spawnBullet here
 				spawnBullet(m_player, Vec2(event.mouseButton.x / 1.0f, event.mouseButton.y / 1.0f));
 			}
-			if (event.mouseButton.button = sf::Mouse::Right)
+			if (event.mouseButton.button == sf::Mouse::Right)
 			{
 				// call spawnSpecialWeapon here
 				spawnSpecialWeapon(m_player);
